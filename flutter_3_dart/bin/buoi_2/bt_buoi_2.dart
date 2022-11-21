@@ -59,7 +59,7 @@ void ageOfMembers(){
   print(ageOfMembers);
 
   print('Chuyển thành mảng String');
-  final arrayString = ageOfMembers.map((e) => e.toString()).toList();
+  final arrayString = ageOfMembers.toString();
   print(arrayString);
 }
 
